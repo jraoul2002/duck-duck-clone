@@ -1,10 +1,9 @@
 # Development Strategy
 
-> `name-of-project`
+> `duck-duck-clone`
 
 write a short description of your project:
-- who would want to use it?
-- why would they want to use it?
+This project is about the clone the duck-duck-home page.
 
 ## Wireframe
 
@@ -14,7 +13,11 @@ write a short description of your project:
 
 ## 0. Set-Up
 
-__A User can see my initial repository and live demo__
+__A User can see [My initial repository]() and [Live demo]()__
+
+To run this project out we will have to divide the duck-duck home page in sub-page
+each sub-page will be developed in a different branch and at the end of the work we will have to merge all the branches to the main/master branch.
+Each sub-page will have its own developemnt strategy.
 
 ### Repo
 
@@ -22,23 +25,71 @@ __A User can see my initial repository and live demo__
 - Write initial, basic README
 - Turn on GitHub Pages
 
-## 1. __
+## 1. about _Main page_
 
-__full user story description__
+> assigned to Raoul
 
-### Repo
+__As a site visitor, I want to know about your this sub page and who is in and how it looks like__
+write a small development straregy about this Sub-page
 
-what branch(es) did you work on?
+##### developement strategy
 
-### HTML
+- [ ] developed on a branch named `main-page`
+---
 
-what did you change in the HTML and why?
 
-### CSS
+## 2. About _second-page_
 
-what did you change in the CSS and why?
+> assigned to Solomon
 
-## 2. ...
+__As a site visitor, I want to know about your this sub page and who is in and how it looks like__
+write a small development straregy about this Sub-page
+
+##### developement strategy
+
+- [ ] developed on a branch named `second-page`
+---
+
+## 3. About _third-page_
+
+> assigned to Laura
+
+__As a site visitor, I want to know about your this sub page and who is in and how it looks like__
+write a small development straregy about this Sub-page
+
+##### developement strategy
+
+- [ ] developed on a branch named `third-page`
+---
+
+## 4. about _fourth-page_
+
+> assigned to Chyngyz
+
+__As a site visitor, I want to know about your this sub page and who is in and how it looks like__
+write a small development straregy about this Sub-page
+
+##### developement strategy
+
+- [ ] developed on a branch named `fourth-page`
+---
+
+## 4. about _fith-page_
+
+> assigned to Himanshi
+
+__As a site visitor, I want to know about your this sub page and who is in and how it looks like__
+write a small development straregy about this Sub-page
+
+##### developement strategy
+
+- [ ] developed on a branch named `fith-page`
+
+
+
+
+
+
 
 ...
 
