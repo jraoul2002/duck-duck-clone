@@ -1,15 +1,97 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title></title>
+  <title>Duck-Duck-Clone</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
 
-  <!-- Leave this here!  It renders the review buttons  -->
-  <script src='./evaluation/init.js'></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300|PT+Sans:700|Source+Sans+Pro:200,300,400,600" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+<script type="text/javascript" src="JS/index.js"></script>
+    <script src='./evaluation/init.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+
+<header>
+	<nav id="topnav"><!-- all of nav should float right or positoned right -->
+		<div id="privacy"><p class="tabhide">Privacy, simplified &nbsp&nbsp</p><i id="hidethis" class="fas fa-angle-down"></i><!-- hide privacy in table mode/phone -->
+
+		<div id ="gliph"><i class="glyphicon glyphicon-bullhorn"></i></div>&nbsp&nbsp<i class="fas fa-angle-down"></i></div>
+		
+		<div id="menu"><i class="fas fa-bars"></i></div>
+	</nav>
+  </header>
+  
+    <main>
+
+		<div id="hero">
+			
+			<img id="heroduck" src="Images/logo.png">
+			<h1><strong>DuckDuckGo</strong></h1>
+			
+			<div id="search">
+				<input type="search" name=""><i id="mag" class="fas fa-search fa-lg"></i>
+			</div>
+			<div id="herotext">
+			<p>The search engine that doesn't track you.</p> &nbsp&nbsp <a href="">Help Spread DuckDuckGo!</a>
+			</div>
+
+			<div id="teaser">
+			<img src="Images/trueteaser.PNG">
+			</div>
+    </div>
+</main>
+
+<section id="experience">
+	<div id="second">
+		<div class="uptop">
+		<h1 class="bigfont">We don't store your<br> personal information. Ever.</h1>
+		<p class="sectionfont">Our privacy policy is simple: we don’t collect <br>or share any of your personal information.</p>
+		
+		</div>
+
+		<div class="scale">
+		<img class="imgscale" src="Images/no-information-stored.svg">
+		</div>
+	</div>
+</section>
+
+<section id="follow">
+	<div id="third">
+		<div class="uptop">
+		<h1 class="bigfont">We don’t follow you <br>around with ads.</h1>
+		<p class="sectionfont">We don’t store your search history. We therefore have nothing <br>to sell to advertisers that track you across the internet.</p>
+		
+		</div>
+
+		<div class="scale">
+		<img class="imgscale" src="Images/no-ads.svg">
+		</div>
+	</div>
+
+</section>
+
+
+<section id="shower">
+	<div id="fourth">
+		<div class="uptop">
+		<h1 class="bigfont">We don’t track you in or out <br>of private browsing mode.</h1>
+		<p class="sectionfont">Other search engines track your searches even when you’re <br>in private browsing mode. We don’t track you — period.</p>
+		
+		</div>
+
+		<div class="scale">
+		<img class="imgscale" src="Images/no-tracking.svg">
+		</div>
+	</div>
+</section>
 
 </body>
 
